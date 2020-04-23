@@ -1,7 +1,7 @@
 def reverse_each_word(sentence)
-sentence = []
+statement = []
   sentence.each do |line|
-    sentence << line.reverse
+    statement << line.reverse
   end
-  sentence
+  statement
 end
