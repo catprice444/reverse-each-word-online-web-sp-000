@@ -1,6 +1,7 @@
 def reverse_each_word(sentence)
-statment.join = []
+array = string.split(" ")
+statment = []
 sentence.collect do |line|
-  statement << "line.reverse"
+  statement << line.reverse
 end
 end
